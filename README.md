@@ -31,6 +31,19 @@ The UI is a single screen: a search field, filter chips (All / Car-ready /
 Copies), and a bottom sheet for choosing how the copy shows in the car. Light and
 dark themes are both supported.
 
+## Requirements
+
+- **Android 10 (API 29) or newer** on the phone AutoRepack runs on.
+- **Android Auto**, with **Unknown sources** turned on in its developer settings, so
+  sideloaded copies appear in the car.
+- Permission to **install unknown apps** — AutoRepack asks for this the first time
+  you make a copy.
+- Enough free storage and memory to copy the app; very large apps can fail on
+  low-memory phones (you'll get a clear message if so).
+- A car or head unit that runs Android Auto, to actually use the copies.
+
+No root required, and nothing to install on the car side — it's all phone-side.
+
 ## Install
 
 Grab `AutoRepack.apk` from the [Releases](../../releases) page (or build it — see
