@@ -1,6 +1,6 @@
 # Disclaimer
 
-AutoRepack is provided for **personal use** — making a copy of an app *you already
+AutoRepack is provided for **personal use**: making a copy of an app *you already
 have installed* work on your own car screen. Use it at your own risk.
 
 - **It modifies and re-signs apps.** Each copy is repackaged and signed with a key
@@ -18,12 +18,12 @@ have installed* work on your own car screen. Use it at your own risk.
   Google, Android, or Android Auto.
 - **Your responsibility to have the rights.** You must have the legal right to use
   and modify any app you repack, and you must comply with that app's license and
-  with applicable law — including anti-circumvention laws such as the DMCA (17
+  with applicable law, including anti-circumvention laws such as the DMCA (17
   U.S.C. § 1201) and its equivalents elsewhere. You are solely responsible for
   determining whether your use is lawful where you are.
 - **Scope of the license.** The [MIT license](LICENSE) covers AutoRepack's own
   source code only. It does **not** grant you any rights to the apps you process
-  with it — those remain the property of their respective owners under their own
+  with it; those remain the property of their respective owners under their own
   licenses. A copy you create is a derivative of someone else's app, not of
   AutoRepack.
 - **No data collected.** AutoRepack collects and transmits nothing. All work happens

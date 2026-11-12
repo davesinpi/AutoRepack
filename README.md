@@ -1,9 +1,13 @@
 # AutoRepack
 
+[![Release](https://img.shields.io/github/v/release/davesinpi/AutoRepack)](../../releases)
+[![License](https://img.shields.io/github/license/davesinpi/AutoRepack)](LICENSE)
+![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?logo=android&logoColor=white)
+
 AutoRepack makes an **Android Auto copy** of an app you already have installed. It
 rewrites a copy of the app so Android Auto will show it on the car screen, signs
 that copy with a key generated on your own phone, and installs it next to the
-original — leaving the original app untouched.
+original. The original app is left untouched.
 
 It's a single, dependency-light Android app (only the platform SDK plus Google's
 `apksig` signing library). All the rewriting happens on the phone; nothing is
@@ -11,7 +15,7 @@ uploaded anywhere.
 
 > **Heads-up:** copies are signed by a key made on your phone, not downloaded from
 > Google Play, so Android shows a **Play Protect "unsafe app blocked" prompt** at
-> install. That's expected for any sideloaded, re-signed app — tap *More details →
+> install. That's expected for any sideloaded, re-signed app: tap *More details ›
 > Install anyway*. AutoRepack can't (and shouldn't) hide that warning.
 
 ## What it does
@@ -36,21 +40,21 @@ dark themes are both supported.
 - **Android 10 (API 29) or newer** on the phone AutoRepack runs on.
 - **Android Auto**, with **Unknown sources** turned on in its developer settings, so
   sideloaded copies appear in the car.
-- Permission to **install unknown apps** — AutoRepack asks for this the first time
+- Permission to **install unknown apps**. AutoRepack asks for this the first time
   you make a copy.
 - Enough free storage and memory to copy the app; very large apps can fail on
   low-memory phones (you'll get a clear message if so).
 - A car or head unit that runs Android Auto, to actually use the copies.
 
-No root required, and nothing to install on the car side — it's all phone-side.
+No root required, and nothing to install on the car side: it's all phone-side.
 
 ## Install
 
-Grab `AutoRepack.apk` from the [Releases](../../releases) page (or build it — see
+Grab `AutoRepack.apk` from the [Releases](../../releases) page (or build it, see
 below), install it on the phone, then open AutoRepack and pick an app.
 
 To make copies actually appear in the car, turn on **Unknown sources** in Android
-Auto: open Android Auto's settings, tap the version number ~10 times to unlock
+Auto: open Android Auto's settings, tap the version number about 10 times to unlock
 **Developer settings**, then enable **Unknown sources**.
 
 ## Limits
@@ -97,9 +101,9 @@ and check the output with `aapt2` and `apksigner` without a phone.
 
 ## Disclaimer
 
-For **personal use** only, at your own risk. AutoRepack modifies and re-signs apps;
-you are responsible for having the rights to any app you repack, for obeying
-applicable law, and — above all — for **not using a car-screen copy in any way that
+For **personal use** only, at your own risk. AutoRepack modifies and re-signs apps.
+You are responsible for having the rights to any app you repack, for obeying
+applicable law, and, above all, for **not using a car-screen copy in any way that
 distracts you while driving**. It collects no data. See **[DISCLAIMER.md](DISCLAIMER.md)**
 for the full terms, including the safe-driving waiver.
 
