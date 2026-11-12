@@ -100,6 +100,21 @@ have installed* work on your own car screen. Use it at your own risk.
   (see [LICENSE](LICENSE)). The author is not responsible for any damage, data
   loss, account action, or other consequence of using it. It is not affiliated with
   Google, Android, or Android Auto.
+- **Your responsibility to have the rights.** You must have the legal right to use
+  and modify any app you repack, and you must comply with that app's license and
+  with applicable law — including anti-circumvention laws such as the DMCA (17
+  U.S.C. § 1201) and its equivalents elsewhere. You are solely responsible for
+  determining whether your use is lawful where you are.
+- **Scope of the license.** The [MIT license](LICENSE) covers AutoRepack's own
+  source code only. It does **not** grant you any rights to the apps you process
+  with it — those remain the property of their respective owners under their own
+  licenses. A copy you create is a derivative of someone else's app, not of
+  AutoRepack.
+- **No data collected.** AutoRepack collects and transmits nothing. All work happens
+  on your device; there are no servers, analytics, accounts, or network calls.
+- **Trademarks.** Android, Android Auto, and Google Play are trademarks of Google
+  LLC, used here only to describe what this software does. AutoRepack is not
+  endorsed by, sponsored by, or affiliated with Google.
 
 ### Safe driving / distraction waiver
 
