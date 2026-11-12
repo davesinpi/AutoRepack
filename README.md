@@ -82,6 +82,28 @@ and check the output with `aapt2` and `apksigner` without a phone.
 | On-device signing, install, UI | `app/src/main/java/com/autorepack/` |
 | Desktop harness | `desktop-test/` |
 
+## Disclaimer
+
+AutoRepack is provided for **personal use** — making a copy of an app *you already
+have installed* work on your own car screen. Use it at your own risk.
+
+- **It modifies and re-signs apps.** Each copy is repackaged and signed with a key
+  generated on your phone, not by the original developer. Android and Google Play
+  Protect will warn you about this at install; that warning is correct and
+  expected. AutoRepack does not try to hide or bypass it.
+- **It may break apps or violate their terms.** Some apps forbid modification or
+  redistribution in their terms of service, check their own signature, or tie
+  online features to the original package. A copy may refuse to run, lose features,
+  or put your account at risk. Only repack apps you are entitled to use this way,
+  and respect their licenses.
+- **No warranty.** This software is provided "as is", without warranty of any kind
+  (see [LICENSE](LICENSE)). The author is not responsible for any damage, data
+  loss, account action, or other consequence of using it. It is not affiliated with
+  Google, Android, or Android Auto.
+
+Do not use AutoRepack to pirate paid apps, remove license or subscription checks,
+or redistribute modified apps.
+
 ## License
 
 [MIT](LICENSE)
