@@ -101,6 +101,23 @@ have installed* work on your own car screen. Use it at your own risk.
   loss, account action, or other consequence of using it. It is not affiliated with
   Google, Android, or Android Auto.
 
+### Safe driving / distraction waiver
+
+Android Auto deliberately blocks video and other distracting content while the
+vehicle is moving. Repacking an app onto the car screen can defeat those
+safeguards.
+
+**Do not use AutoRepack to watch video, play games, or otherwise interact with a
+distracting app while driving.** Doing so is dangerous, likely illegal where you
+are, and can cause injury or death.
+
+By using this software you accept **full and sole responsibility** for how and
+where you use any copy it creates. You agree to obey all applicable traffic and
+distracted-driving laws, and to keep your attention on the road. The author
+accepts no liability for any accident, injury, death, fine, or other harm or loss
+resulting from distracted driving or any other misuse. If you cannot use it safely
+and lawfully, do not use it.
+
 Do not use AutoRepack to pirate paid apps, remove license or subscription checks,
 or redistribute modified apps.
 
