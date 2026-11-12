@@ -109,17 +109,17 @@ for the full terms, including the safe-driving waiver.
 
 ## Related projects
 
-**[PrivaCar](https://github.com/davesinpi/PrivaCarBrowser)** is the companion
-project for **Android Automotive OS**, the Android that runs built into a car's
-head unit. AutoRepack covers **Android Auto**, which projects apps from your phone.
+**[PrivaCar](https://github.com/davesinpi/PrivaCarBrowser)** is a companion
+project: a privacy-focused web browser for car screens.
 
 | | AutoRepack | PrivaCar |
 |---|---|---|
-| Car platform | Android Auto (projected from your phone) | Android Automotive OS (built into the head unit) |
-| Runs on | Your phone | The head unit |
+| Car platform | Android Auto | Android Auto (Android 15+ phones) and Android Automotive OS |
+| Runs on | Your phone | Your phone or the car's head unit |
 | What it does | Makes an Android Auto copy of a media or messaging app you already have | A privacy-focused web browser for the car screen |
 
-They solve different problems and don't depend on each other.
+They solve different problems and don't depend on each other. PrivaCar doesn't
+need repacking: on Android 15+ phones it appears in Android Auto by itself.
 
 ## License
 
