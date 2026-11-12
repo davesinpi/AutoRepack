@@ -107,6 +107,20 @@ applicable law, and, above all, for **not using a car-screen copy in any way tha
 distracts you while driving**. It collects no data. See **[DISCLAIMER.md](DISCLAIMER.md)**
 for the full terms, including the safe-driving waiver.
 
+## Related projects
+
+**[PrivaCar](https://github.com/davesinpi/PrivaCarBrowser)** is the companion
+project for **Android Automotive OS**, the Android that runs built into a car's
+head unit. AutoRepack covers **Android Auto**, which projects apps from your phone.
+
+| | AutoRepack | PrivaCar |
+|---|---|---|
+| Car platform | Android Auto (projected from your phone) | Android Automotive OS (built into the head unit) |
+| Runs on | Your phone | The head unit |
+| What it does | Makes an Android Auto copy of a media or messaging app you already have | A privacy-focused web browser for the car screen |
+
+They solve different problems and don't depend on each other.
+
 ## License
 
 [MIT](LICENSE)
