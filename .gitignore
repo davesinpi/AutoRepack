@@ -1,0 +1,7 @@
+.gradle/
+build/
+app/build/
+local.properties
+desktop-test/out/
+desktop-test/*.p12
+*.apk

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand">#8AB4F8</color>
+    <color name="on_brand">#0B1D3A</color>
+    <color name="hero_start">#173A8A</color>
+    <color name="hero_end">#3F2C96</color>
+    <color name="bg">#111214</color>
+    <color name="surface">#1D1F23</color>
+    <color name="sheet">#1D1F23</color>
+    <color name="outline">#3A3E45</color>
+    <color name="text_primary">#E6E6E9</color>
+    <color name="text_secondary">#9BA1A9</color>
+    <color name="success">#81C995</color>
+    <color name="success_bg">#1E3A2B</color>
+    <color name="warning">#FDD663</color>
+    <color name="warning_bg">#3D3324</color>
+</resources>
