@@ -52,6 +52,16 @@ Auto: open Android Auto's settings, tap the version number ~10 times to unlock
 
 Requires a JDK (Android Studio's bundled JBR works well) and the Android SDK.
 
+Point Gradle at your SDK, either with an `ANDROID_HOME` environment variable or a
+`local.properties` file in the project root (this file is git-ignored). Use forward
+slashes, even on Windows, to avoid escaping issues:
+
+```
+sdk.dir=C:/Users/you/AppData/Local/Android/Sdk
+```
+
+Then build:
+
 ```
 gradlew assembleRelease          # JAVA_HOME = Android Studio's jbr
 ```
