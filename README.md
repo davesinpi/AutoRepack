@@ -109,17 +109,18 @@ for the full terms, including the safe-driving waiver.
 
 ## Related projects
 
-**[PrivaCar](https://github.com/davesinpi/PrivaCarBrowser)** is a companion
-project: a privacy-focused web browser for car screens.
+Three independent projects for getting more out of Android Auto. They don't depend on each other.
 
-| | AutoRepack | PrivaCar |
-|---|---|---|
-| Car platform | Android Auto | Android Auto (Android 15+ phones) and Android Automotive OS |
-| Runs on | Your phone | Your phone or the car's head unit |
-| What it does | Makes an Android Auto copy of a media or messaging app you already have | A privacy-focused web browser for the car screen |
+| | AutoRepack | [PrivaCar](https://github.com/davesinpi/PrivaCarBrowser) | [Curbside](https://github.com/davesinpi/Curbside) |
+|---|---|---|---|
+| What it does | Makes an Android Auto copy of a media or messaging app you already have | Privacy-focused web browser for the car screen | Web and video browser for the car screen |
+| Android Auto phones | Any | Android 15 and newer | **Android 14 and older** (and newer) |
+| Android Automotive head units | No | Yes | No |
+| Language | Java | Kotlin | Kotlin |
 
-They solve different problems and don't depend on each other. PrivaCar doesn't
-need repacking: on Android 15+ phones it appears in Android Auto by itself.
+Neither browser needs repacking. PrivaCar appears in Android Auto by itself on
+Android 15+ phones (repacking it doesn't help on Android 14, tested). Curbside is
+built for Android 14 and older phones.
 
 ## License
 
